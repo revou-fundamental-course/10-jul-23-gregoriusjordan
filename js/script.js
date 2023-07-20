@@ -5,7 +5,7 @@
     const gender = document.querySelector('input[name="radio"]:checked').value;
 
     if (isNaN(age) || isNaN(height) || isNaN(weight) || !gender) {
-        alert('Please fill all the fields with valid input.');
+        alert('Please fill all the fields.');
         return;
     }
 
